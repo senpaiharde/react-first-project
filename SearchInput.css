@@ -1,0 +1,30 @@
+.search-container {
+    text-align: center;
+    margin: 20px auto;
+    width: 50%;
+}
+.search-transition {
+    display: inline-block;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+.input {
+    background-color: #1c1e22;
+    border: none;
+    width: 320px;
+    height: 58px;
+    border-radius: 15px;
+    color: white;
+    padding-left: 20px;
+    font-size: 18px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+    

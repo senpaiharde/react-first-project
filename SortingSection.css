@@ -1,0 +1,37 @@
+.filter-container{
+    text-align: center;
+    margin: 20px auto;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 18px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    width: 50%;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.filter-container.shrink {
+    width: 200px; /* Shrinks the search bar */
+    transform: translateY(-50px) scale(0.8); /* Moves up & shrinks */
+    opacity: 0;
+    pointer-events: none;
+}
+.sort-container {
+    margin-top: 10px;
+    text-align: center;
+
+}
+.sort-container select {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    background: #282c34;
+    color: white;
+    transition: all 0.3s;
+}
+.sort-container select:hover {
+    background: #61dafb;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+

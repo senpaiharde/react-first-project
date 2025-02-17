@@ -1,0 +1,29 @@
+button{
+    background-color:#61dafb;
+    border: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius:5px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+
+}
+button:hover{
+    background-color:#4db8e3;
+    transform: scale(1.1);
+}
+
+a{
+    display: inline-block;
+    background-color:#ff5733;
+    color:white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius:5px;
+    margin-top: 10px;
+}
+
+a:hover{
+    background-color:#e74c3c;
+}

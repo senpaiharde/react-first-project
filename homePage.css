@@ -1,0 +1,42 @@
+.homepage{
+    font-family:'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background:linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color:white;
+}
+
+.hero{
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.6);
+ border-radius: 10px;
+ margin-bottom: 30px;
+
+}
+.hero h1{
+    font-size: 2.5rem;
+}
+.hero p{
+    font-size: 1.2rem;
+}
+
+.summary{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+
+.dashboard{
+    padding: 20px;
+    background:rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+.chart-container{
+    width:80%;
+    margin: 0 auto;
+    background:white;
+    padding: 10px;
+    border-radius: 10px;
+}
